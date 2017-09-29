@@ -110,7 +110,7 @@ function getQueryVariable(variable) {
 }
 var labelArray = [],
     relatedPostConfig = {
-		homePage: "http://www.doisong24.com/",
+		homePage: getQueryVariable("url"),
         numPosts: 20,
         summaryLength: 100,
         widgetStyle: 2,
